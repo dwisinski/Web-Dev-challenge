@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>DW Bootstrap Demo - Best/Worst Point Differentials</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">DW</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Visualizations/Plots
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="one.html">Avg PPG and Wins per Season</a></li>
+                  <li><a class="dropdown-item" href="two.html">Avg Elo vs. Opponents</a></li>
+                  <li><a class="dropdown-item" href="three.html">Wins vs. Avg Win Prob</a></li>
+                  <li><a class="dropdown-item" href="four.html">Best/Worst Point Differentials</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h3>Best/Worst Average Point Differential by Season</h3>
+            <p><img src="images/Bulls_Point_Differentials.png" class="img-fluid">
+              <br/><br/>
+              The diverging line chart above depicts the distribution of the best and worst Bulls teams historically by season-averaged point diffentials. 
+              Again unsurprisingly, the Bulls teams of mid to late 1990s were the most dominant, with the 1996 team winning their 87 total games by an average margin of nearly 12 points. 
+              In stark contrast, the "re-building era" teams of the early 2000s were typically being outscored by their opponents by near double digits (including the inauspicious shot-clock-era record low of 49 total team points scored by the 1999 team in a home game vs. the Miami Heat)<sup>1</sup>.
+              <br/><br/>
+              <sup>1</sup><a href="https://nbanetwork.org/post/615036758843949056/otd-in-1999-chicago-bulls-scored-nbas-lowest-49"> Source</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+      </body>
+      </html>

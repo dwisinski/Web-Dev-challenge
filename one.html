@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>DW Bootstrap Demo - Avg PPG and Wins per Season</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">DW</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Visualizations/Plots
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="one.html">Avg PPG and Wins per Season</a></li>
+                  <li><a class="dropdown-item" href="two.html">Avg Elo vs. Opponents</a></li>
+                  <li><a class="dropdown-item" href="three.html">Wins vs. Avg Win Prob</a></li>
+                  <li><a class="dropdown-item" href="four.html">Best/Worst Point Differentials</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h3>Average Points per Game and Wins per Season (including Playoffs)</h3>
+            <p><img src="images/Bulls_Wins_Points.png" class="img-fluid">
+              <br/><br/>
+              The line graphs above depict both the team's average point total on a per game basis, as well as the overall win totals by season, on a shared x-axis. Somehwat surprisingly, the historically highest scoring Bulls teams took the courts in the late 1960s and early 1970s, though when viewed contextually along with overall league-wide scoring trends, this statistic becomes a bit less surprising<sup>1</sup>.
+              <br/><br/>
+              Certainly less surprising is that the winningest Bulls teams played in the early 1990s during the onset of the "Jordan Era", which was followed by a steep decline during Jordan's departure from the league during the entire 1994 season and large part of 1995, and ultimately capped by a sharp spike culminating in the team's (at the time) record-setting 72 win 1996 regular season campaign. That team also went on to win 15 total playoff games, including four NBA Finals games en route to the franchise's fourth title.
+              <br/><br/>
+              <sup>1</sup><a href="https://chartedinterests.wordpress.com/2018/04/17/a-history-of-nba-scoring-trends/"> Source</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+      </body>
+      </html>
