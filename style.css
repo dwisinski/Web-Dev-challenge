@@ -32,3 +32,8 @@ img:hover {
     text-decoration: none;
     font-weight: bold;
   }
+
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
