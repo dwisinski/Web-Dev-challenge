@@ -17,23 +17,23 @@ img:hover {
     box-shadow: 0 0 2px 1px rgba(253, 253, 253, 0.8);
   }
 
-  a:link {
+a:link {
     color: gray;
     text-decoration: none;
   }
   
-  a:visited {
+a:visited {
     color: rgb(85, 85, 85);
     text-decoration: none;
   }
   
-  a:hover {
+a:hover {
     color: white;
     text-decoration: none;
     font-weight: bold;
   }
 
-  .row {  
+.row {  
     display: flex;
     flex-wrap: wrap;
   }
